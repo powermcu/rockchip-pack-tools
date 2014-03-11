@@ -1,0 +1,12 @@
+﻿# NAME		Relative path
+#
+#HWDEF		HWDEF
+package-file	package-file
+bootloader	RK30xxLoader(L)_V1.22.bin
+parameter	parameter
+boot            Linux/linux-boot.img
+kernel          Linux/linux-kernel.img
+linuxroot	Linux/linux-rootfs.img
+backup		RESERVED
+update-script	update-script
+recover-script	recover-script
