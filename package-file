@@ -2,10 +2,11 @@
 #
 #HWDEF		HWDEF
 package-file	package-file
-bootloader	RK30xxLoader(L)_V1.22.bin
+bootloader	RK30xxLoader(L)_V2.13.bin
 parameter	parameter
-boot            Linux/linux-boot-kernel.img
-linuxroot	Linux/linux-rootfs.img
+boot            linux/linux-boot.img
+kernel          linux/linux-kernel.img
+rootfs          linux/linux-rootfs.img
 backup		RESERVED
 update-script	update-script
 recover-script	recover-script
