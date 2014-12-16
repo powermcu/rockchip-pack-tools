@@ -8,4 +8,4 @@ MACHINE: 3066
 CHECK_MASK: 0x80
 KERNEL_IMG: 0x60408000
 #RECOVER_KEY: 1,1,0,20,0
-CMDLINE:initrd=0x62000000,0x00800000 root=/dev/mtdblock3 init=/sbin/init mtdparts=rk29xxnand:0x00002000@0x00000000(parameter),0x00008000@0x00002000(boot),0x00008000@0x0000A000(kernel),-@0x00012000(rootfs)
+CMDLINE:initrd=0x62000000,0x00800000 root=/dev/mtdblock3 init=/sbin/init mtdparts=rk29xxnand:0x00002000@0x00000000(parameter),0x00010000@0x00002000(boot),-@0x00012000(rootfs)
